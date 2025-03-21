@@ -1,3 +1,13 @@
 h1,h2,h3{
     font-family: 'Lora', serif;
 }
+
+.carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
