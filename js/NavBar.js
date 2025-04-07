@@ -4,8 +4,8 @@ document.addEventListener("scroll", function () {
     const heroHeight = heroSection.offsetHeight;
 
     if (window.scrollY > heroHeight) {
-        navbar.classList.add("scrolled");  // Add the 'scrolled' class when past the hero section
+        navbar.classList.add("scrolled");
     } else {
-        navbar.classList.remove("scrolled");  // Remove the 'scrolled' class when back at the top
+        navbar.classList.remove("scrolled");
     }
 });

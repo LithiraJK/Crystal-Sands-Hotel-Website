@@ -13,3 +13,26 @@ h3 {
   width: 100%;
   object-fit: cover;
 }
+
+.navbar .nav-link {
+  position: relative; 
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #d6ad60;
+  transition: width 0.3s ease; 
+}
+
+.navbar .nav-link:hover {
+  color: #d6ad60;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%; 
+}

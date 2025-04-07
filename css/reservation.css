@@ -1,0 +1,38 @@
+.progress-line {
+  height: 2px;
+  background-color: #ccc;
+  z-index: 0;
+}
+
+.step-item {
+  z-index: 1;
+  width: 25%;
+}
+
+.step-circle {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  color: #555;
+  font-weight: bold;
+  margin: 0 auto 8px auto;
+  transition: 0.3s;
+}
+
+.step-circle.active {
+  background-color: #b89b59;
+  color: white;
+}
+
+.step-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+#search-btn {
+  background-color: #d6ad60;
+  border: none;
+  color: white;
+}
